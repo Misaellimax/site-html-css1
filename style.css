@@ -112,14 +112,14 @@ color: #f0ffff94;
         display: none;
     }
     .left-login {
-        width: 100px;
+        width: 100%;
         height: auto;
     }
     .right-login {
-        width: 85px;
+        width: 100%;
         height: auto;
     }
-    .left-login {
+    .leftloginimg {
         width: 50vh;
     }
     .card-login {
