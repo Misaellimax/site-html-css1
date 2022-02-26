@@ -116,13 +116,13 @@ color: #f0ffff94;
         height: auto;
     }
     .right-login {
-        width: 100px;
+        width: 85px;
         height: auto;
     }
     .left-login {
         width: 50vh;
     }
     .card-login {
-        width: 100%;
+        width: 90%;
     }
 }
