@@ -111,3 +111,101 @@ body {
     display: block;
     margin: 0 auto;
 }
+@media only screen and (max-width: 950px) {
+    .button {
+        width: 175px;
+        font-weight: 70px;
+        height: 95%;
+        
+    }
+    .smart-cima {
+        width: 26px;
+        height: 72px;
+        position: absolute;
+        left: 1px;
+
+
+    }
+}
+@media only screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+    .imagem-grande {
+        width: 200px;
+        height: 50px;
+        display: none;
+    }
+    .titulo {
+        text-align: left 5px;
+    }
+    .subtitulo {
+        position: absolute;
+        margin-left: 50%;
+        top: 18%;
+        width: 50%;
+        right: -15px;
+        left: -55px; 
+    }
+    .button {
+        position: absolute;
+        top: 180px;
+        left: 100px;
+        right: 10px;
+        bottom: 50px;
+        border-radius: 20px;
+        width: 200px;
+        height: 50px;
+        
+    }
+    .paragrafo2 {
+        position: absolute;
+        left: 10px;
+        top: 353px;
+        width: 150%;
+    }
+    .menu {
+        position: absolute;
+        margin-left: 50%;
+        top: 2%;
+        width: 50%;
+        right: 120px;
+        left: -100px;
+    }
+    .smart-cima {
+        width: 26px;
+        height: 72px;
+        position: absolute;
+        left: 1px;
+        }
+        .titulo2 {
+          position: absolute;
+         bottom: 30px;
+         top: 248px;
+         border-top: 0.4px solid #fff2e7;
+         padding-top: 48px;
+         margin-bottom: 48px;
+        }
+        .especialista {
+            position: absolute;
+            left: 40px;
+            right: 10px;
+            top: 390px;
+            width: 150%;
+        }
+        .ano {
+            position: absolute;
+            left: 86px;
+            right: 10px;
+            top: 425px;
+            width: 150%;
+        }
+        .rodape-logo {
+            margin-top: 10px;
+        }
+        .rodape {
+            padding: 32px;
+            border-top: 0.4px solid #fff2e7;
+            margin-top: 400px;
+        }
+}
